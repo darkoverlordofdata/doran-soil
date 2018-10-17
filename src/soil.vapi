@@ -16,7 +16,7 @@
  * ***********************************************************************
  * 
  */
-[CCode (lower_case_cprefix ="SOIL_", cheader_filename="SOIL.h")]
+[CCode (lower_case_cprefix ="SOIL_", cheader_filename="soil/SOIL.h")]
 namespace soil
 {
     /**
