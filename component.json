@@ -11,9 +11,10 @@
   "source": "src",
   "files": [
     "src/image_DXT.c",
-    "src/stb_image_aug.c",
     "src/SOIL.c",
-    "src/image_helper.c"
+    "src/image_helper.c",
+    "src/stb_image_aug.c",
+    "src/soil.vapi"
   ],
   "packages": null,
   "includes": [
@@ -27,7 +28,7 @@
   "definitions": [],
   "symbols": [],
   "copy": null,
-  "vapidir": "vapis",
+  "vapidir": null,
   "console": false,
   "main": "CMakeLists.txt"
 }
