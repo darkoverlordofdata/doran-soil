@@ -1,0 +1,33 @@
+{
+  "name": "soil",
+  "template": "package",
+  "version": "0.0.1",
+  "vala": "0.26",
+  "authors": [],
+  "description": "Simple OpenGL Image Library",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {},
+  "source": "src",
+  "files": [
+    "src/image_DXT.c",
+    "src/stb_image_aug.c",
+    "src/SOIL.c",
+    "src/image_helper.c"
+  ],
+  "packages": null,
+  "includes": [
+    ".lib/soil/include"
+  ],
+  "libraries": null,
+  "options": {
+    "VERSION": "0.0.1",
+    "RELEASE_NAME": "soil"
+  },
+  "definitions": [],
+  "symbols": [],
+  "copy": null,
+  "vapidir": "vapis",
+  "console": false,
+  "main": "CMakeLists.txt"
+}
